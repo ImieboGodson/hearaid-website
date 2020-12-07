@@ -1,0 +1,13 @@
+@media (max-width: 1030px) {
+    .hero .grid,
+    .detect-sound .grid,
+    .listen-to-sound .grid,
+    .converts-sounds .grid,
+    .create-avatar .grid,
+    .preview-simulation .grid,
+    .save-share-connect .grid {
+        padding: 0 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
