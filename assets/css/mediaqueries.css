@@ -121,6 +121,7 @@
         width: 100%;
         height: 70px;
         border: 2px solid #ffffff;
+        border-radius: 5px;
     }
 
     .hero .email-input .btn {
@@ -183,6 +184,7 @@
         padding: 20px 5px;
         width: 100%;
         border: 2px solid #ffffff;
+        border-radius: 5px;
     }
 
     .newsletter .email-input .btn {
