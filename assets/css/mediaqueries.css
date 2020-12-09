@@ -13,9 +13,14 @@
         width: 370px;
         font-size: 13px;
     }
+
+    .img-container::before, 
+    .img-container::after {
+        width: 15%;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 930px) {
     .hero .grid,
     .detect-sound .grid,
     .listen-to-sound .grid,
