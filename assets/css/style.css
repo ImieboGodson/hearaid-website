@@ -21,7 +21,7 @@ body {
 /* Hero */
 .hero {
     position: relative;
-    height: 100vh;
+    height: 700px;
     
 }
 
@@ -91,14 +91,20 @@ body {
 
 .countDownTimer .timer {
     padding: 0 5px;
+    line-height: 48px;
     display: flex;
     align-items: flex-end;
 }
 
 .countDownTimer .timer h3 {
     font-weight: bold;
+    line-height: 48px;
     font-size: 39.3195px;
     color: var(--secondary-color);
+}
+
+.countDownTimer .timer p {
+    line-height: 40px;
 }
 
 .hero .hero-right img {
@@ -247,7 +253,6 @@ input:focus {
 /* Newsletter */
 .newsletter {
     margin-top: 50px;
-    
     position: relative;
     height: 500px;
     background-image: url(/assets/images/back\ logo.png);

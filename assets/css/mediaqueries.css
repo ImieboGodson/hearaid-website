@@ -1,6 +1,17 @@
-@media (max-width: 1078px) {
+@media (max-width: 1090px) {
     .hero .grid {
-        gap: 0;
+        gap: 5px;
+    }
+
+    .hero-left .hero-header-text {
+        font-size: 3.6rem;
+        line-height: 44px;
+        padding-bottom: 10px;
+    }
+
+    .hero-left p {
+        width: 370px;
+        font-size: 13px;
     }
 }
 
@@ -12,7 +23,6 @@
     .create-avatar .grid,
     .preview-simulation .grid,
     .save-share-connect .grid {
-        padding: 0 10px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -48,7 +58,7 @@
 
     /* Hero */
     .hero {
-        height: 1300px;
+        height: 1150px;
     }
 
     .hero .grid .hero-left,
@@ -58,6 +68,21 @@
 
     .hero .grid .hero-right {
         padding-top: 100px;
+    }
+
+    .hero-left .hero-header-text {
+        font-size: 4rem;
+        line-height: 66px;
+        padding-bottom: 10px;
+    }
+
+    .hero-left p {
+        width: 420px;
+        font-size: 16px;
+    }
+
+    .countDownTimer .timer h3 {
+        font-size: 1.5rem;
     }
 
     .newsletter {
