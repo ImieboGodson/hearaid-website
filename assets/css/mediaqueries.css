@@ -90,6 +90,24 @@
         font-size: 1.5rem;
     }
 
+    .detect-sound .bg-img {
+        width: 400px;
+        top: 55%;
+    }
+
+    .preview-simulation .bg-img {
+        width: 350px;
+        top: 23%;
+        left: 23%;
+    }
+
+    .save-share-connect .bg-img {
+        width: 350px;
+        top: 24%;
+        right: 0;
+    }
+
+    /* Newsletter */
     .newsletter {
         background-size: 120%;
     }
@@ -170,24 +188,24 @@
 
     .detect-sound {
         position: relative;
-        padding-top: 300px;
+        padding-top: 350px;
     }
 
     .detect-sound .bg-img {
-        width: 260px;
-        top: 750px;
-        left: 0;
+        width: 300px;
+        height: 450px;
+        top: 55%;
     }
 
     .preview-simulation .bg-img {
-        width: 250px;
-        top: 150px;
-        left: 30px;
+        width: 300px;
+        top: 23%;
+        left: 2%;
     }
 
     .save-share-connect .bg-img {
-        width: 200px;
-        top: 230px;
+        width: 250px;
+        top: 27%;
         right: 0;
     }
 
